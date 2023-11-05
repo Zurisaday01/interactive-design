@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /* 10px  */
+	height: 100vh;
+	background: linear-gradient(90deg, #c39581 0%, #ffecd7 100%);
+	min-height: 100vh;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	line-height: 1.7;
+	font-size: 1.6rem;
+	min-height: 100vh;
+	color: #49362e;
+	padding-bottom: 4rem;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 80vw;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	text-align: center;
+	padding: 2rem 1rem;
+}
+
+.eye {
+	fill: #000;
+	transition: all 0.2;
+}
+
+.mouth {
+	fill: #000;
+	stroke: #000;
+	stroke-width: 10;
+}
+
+.eyebrow {
+	stroke: #000;
+	stroke-width: 10;
+}
+
+.lens-frame {
+	fill: none;
+	stroke: #000;
+	stroke-width: 10;
+}
+
+.lens-leg {
+	stroke: #000;
+	stroke-width: 15;
+}
+
+.circle {
+	fill: #000;
+}
+
+.emoji {
+	width: 500px;
+	height: 500px;
+}
+
+.emoji:hover .eye {
+	fill: #0096ff;
+}
